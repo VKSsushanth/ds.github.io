@@ -1,3 +1,4 @@
+'''  c
 #include <stdio.h>
 int main()
 {
@@ -50,3 +51,4 @@ int i,j,k,a[10],b[10],c[20],n,m;
     printf("%d",c[i]);
 
 }
+'''  

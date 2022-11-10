@@ -1,4 +1,4 @@
-
+'''  c
 #include<stdio.h>
 #define MAX 100
 main()
@@ -33,3 +33,4 @@ main()
 		printf("%d ", a[i]);
 	printf("\n");
 }
+'''  
