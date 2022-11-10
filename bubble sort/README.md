@@ -1,45 +1,45 @@
-#include <stdio.h>
+#include <stdio.h>  
  
-void bubble_sort(long [], long);
+void bubble_sort(long [], long);  
+   
+int main()  
+{  
+  long array[100], n, c, d, swap;  
  
-int main()
-{
-  long array[100], n, c, d, swap;
+  printf("Enter number of elements\n");  
+  scanf("%ld", &n);  
  
-  printf("Enter number of elements\n");
-  scanf("%ld", &n);
+  printf("Enter %ld longegers\n", n);    
  
-  printf("Enter %ld longegers\n", n);
+  for (c = 0; c < n; c++)  
+    scanf("%ld", &array[c]);  
+   
+  bubble_sort(array, n);  
  
-  for (c = 0; c < n; c++)
-    scanf("%ld", &array[c]);
+  printf("Sorted list in ascending order:\n");  
  
-  bubble_sort(array, n);
+  for ( c = 0 ; c < n ; c++ )  
+     printf("%ld\n", array[c]);  
  
-  printf("Sorted list in ascending order:\n");
+  return 0;  
+}  
  
-  for ( c = 0 ; c < n ; c++ )
-     printf("%ld\n", array[c]);
+void bubble_sort(long list[], long n)  
+{  
+  long c, d, t;  
  
-  return 0;
-}
- 
-void bubble_sort(long list[], long n)
-{
-  long c, d, t;
- 
-  for (c = 0 ; c < ( n - 1 ); c++)
+  for (c = 0 ; c < ( n - 1 ); c++)  
   {
-    for (d = 0 ; d < n - c - 1; d++)
-    {
-      if (list[d] > list[d+1])
-      {
-        /* Swapping */
+    for (d = 0 ; d < n - c - 1; d++)  
+    {  
+      if (list[d] > list[d+1])  
+      {  
+        /* Swapping */  
  
-        t         = list[d];
-        list[d]   = list[d+1];
-        list[d+1] = t;
-      }
-    }
-  }
-}
+        t         = list[d];  
+        list[d]   = list[d+1];  
+        list[d+1] = t;  
+      }  
+    }  
+  }  
+}  
