@@ -1,4 +1,3 @@
-'''  c
 #include <stdio.h>  
  
 void bubble_sort(long [], long);  
@@ -43,5 +42,4 @@ void bubble_sort(long list[], long n)
       }  
     }  
   }  
-}  
-'''    
+}    

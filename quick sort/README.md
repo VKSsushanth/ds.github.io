@@ -1,4 +1,3 @@
-'''  c
 #include<stdio.h>
 void quicksort(int number[25],int first,int last){
    int i, j, pivot, temp;
@@ -36,5 +35,4 @@ int main(){
    for(i=0;i<count;i++)
    printf(" %d",number[i]);
    return 0;
-}
-'''  
+}  

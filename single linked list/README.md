@@ -1,4 +1,3 @@
-'''  c
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct snglst
@@ -213,4 +212,3 @@ void search()
     if(srch==NULL)
       printf("%d not found in the list ",elm);
 }
-'''  
