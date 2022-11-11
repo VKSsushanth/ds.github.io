@@ -1,10 +1,10 @@
 # ds.github.io  
     
   
-[single linked list](single linked list)  
-[bubble sort](bubble sort)  
-[quick sort](quick sort)     
-[merge sort](merge sort)    
-[selection sort](selection sort)      
-[insertion sort](insertion sort)    
+[singlelinkedlist](singlelinkedlist)  
+[bubblesort](bubblesort)  
+[quicksort](quicksort)     
+[mergesort](merge sort)    
+[selectionsort](selection sort)      
+[insertionsort](insertion sort)    
 
