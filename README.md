@@ -1,10 +1,10 @@
 # ds.github.io  
     
   
-[singlelinkedlist](singlelinkedlist)  
-[bubblesort](bubblesort)  
-[quicksort](quicksort)     
-[mergesort](merge sort)    
-[selectionsort](selection sort)      
-[insertionsort](insertion sort)    
+[singlelinkedlist](https://brosdead345.github.io/hi/singlelinkedlist.c)  
+[bubblesort](https://brosdead345.github.io/hi/bubblesort.c)  
+[quicksort](https://brosdead345.github.io/hi/quicksort.c)     
+[mergesort](https://brosdead345.github.io/hi/mergesort.c)    
+[selectionsort](https://brosdead345.github.io/hi/selectionsort.c)      
+[insertionsort](https://brosdead345.github.io/hi/insertionsort.c)    
 
