@@ -11,4 +11,4 @@
 [singlelinkedlist](https://brosdead345.github.io/hi/singlelinkedlist.c)  
 
 # Queue using array  
-[QueueArray](queueusingarrays)  
+[QueueArray](queueusingarrays.c)  
